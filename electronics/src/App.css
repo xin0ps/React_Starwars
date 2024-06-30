@@ -1,0 +1,45 @@
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin: 8px 0;
+}
+
+.card-price {
+  font-size: 1.2em;
+  color: #888;
+}
+
+.card-description {
+  font-size: 1em;
+  color: #555;
+}
+
+.card-category {
+  font-size: 0.9em;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.card-inventory {
+  font-size: 0.9em;
+  color: #333;
+}
